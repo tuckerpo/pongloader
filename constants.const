@@ -1,0 +1,7 @@
+%ifndef __constants__
+%define __constants__
+%define VGA_BASE 0x000A0000
+%define VGA_END  0x000BFFFF
+%define VGA_MEM_SIZE (VGA_END - VGA_BASE)
+%endif
+
